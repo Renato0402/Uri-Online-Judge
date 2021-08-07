@@ -100,7 +100,7 @@ int main()
 struct node* root = NULL;
 char s[10];
 
-while(fgets(s,sizeof(s),stdin)!= EOF){
+while(fgets(s,sizeof(s),stdin)!= 0){
 
     if(s[0] == 'I' && strlen(s) < 5){
 
